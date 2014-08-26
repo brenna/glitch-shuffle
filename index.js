@@ -1,3 +1,10 @@
+/*
+* Glitch an image by slicing and rearranging random horizontal components
+* forked from https://github.com/revisitors/glitch-api-example
+* node-canvas help from https://github.com/revisitors/squareshuffle
+*/
+
+
 var nconf = require('nconf')
 var bodyParser = require('body-parser')
 var dataUriToBuffer = require('data-uri-to-buffer')
