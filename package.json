@@ -1,10 +1,11 @@
 {
-  "name": "glitch-api-example",
+  "name": "glitch",
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "author": "",
   "license": "GPL3",
@@ -12,10 +13,12 @@
     "body-parser": "^1.6.2",
     "data-uri-to-buffer": "0.0.3",
     "express": "^4.8.2",
-    "glitch-jpg": "^1.0.4",
-    "nconf": "^0.6.9"
+    "cut-the-deck": "^1.0.0",
+    "nconf": "^0.6.9",
+    "gm": "~1.16.0"
   },
   "devDependencies": {
-    "nodemon": "^1.2.1"
+    "nodemon": "^1.2.1",
+    "canvas": "~1.1.6"
   }
 }
