@@ -14,10 +14,9 @@
     "data-uri-to-buffer": "0.0.3",
     "express": "^4.8.2",
     "nconf": "^0.6.9",
-    "canvas": "git://github.com/elspoono/node-canvas-heroku.git"
+    "canvas": "~1.1.6"
   },
   "devDependencies": {
-    "nodemon": "^1.2.1",
-    "canvas": "~1.1.6"
+    "nodemon": "^1.2.1"
   }
 }
